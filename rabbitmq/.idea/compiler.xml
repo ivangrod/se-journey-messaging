@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.6.2/57e6a7f5d35edce0f92a270a816a054bbed49a36/spring-boot-configuration-processor-2.6.2.jar" />
+        </processorPath>
+        <module name="rabbitmq-sender.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kotlin-hexagonal-skeleton" target="11" />
+      <module name="kotlin-hexagonal-skeleton.main" target="11" />
+      <module name="kotlin-hexagonal-skeleton.test" target="11" />
+      <module name="rabbitmq-receiver.application.main" target="17" />
+      <module name="rabbitmq-receiver.application.test" target="17" />
+      <module name="rabbitmq-receiver.domain.main" target="17" />
+      <module name="rabbitmq-receiver.domain.test" target="17" />
+      <module name="rabbitmq-receiver.infrastructure.main" target="17" />
+      <module name="rabbitmq-receiver.infrastructure.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
