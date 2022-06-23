@@ -1,2 +1,8 @@
 server:
   port: 9080
+
+spring:
+  rabbitmq:
+    # Configure the message confirmation method. Enable message with correlation_id
+    publisher-confirm-type: correlated
+    publisher-returns: true
